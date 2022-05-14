@@ -16,7 +16,7 @@ namespace CSharp
             //int hp;
             short level = 100;
             long id;
-            hp = 100;
+            //hp = 100;
 
             byte attack = 0;
             attack--;
