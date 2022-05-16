@@ -79,6 +79,27 @@ namespace CSharp
                 Console.WriteLine("보입니다.");
             }
 
+            switch (choice)
+            {
+                case 0:
+                    Console.WriteLine("가위입니다");
+                    break;
+
+                case 1:
+                    Console.WriteLine("바위입니다.");
+                    break;
+
+                case 2:
+                    Console.WriteLine("보입니다.");
+                    break;
+
+                default:
+                    Console.WriteLine("다 실패했습니다");
+                    break;
+
+            }
+
+
         }
     }
 }
