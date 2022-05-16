@@ -1,0 +1,15 @@
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\Rock.csproj.AssemblyReference.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\Rock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\Rock.AssemblyInfoInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\Rock.AssemblyInfo.cs
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\Rock.csproj.CoreCompileInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\bin\Debug\net6.0\Rock.exe
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\bin\Debug\net6.0\Rock.deps.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\bin\Debug\net6.0\Rock.runtimeconfig.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\bin\Debug\net6.0\Rock.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\bin\Debug\net6.0\Rock.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\Rock.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\refint\Rock.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\Rock.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\Rock.genruntimeconfig.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220516_가위바위보\Rock\Rock\obj\Debug\net6.0\ref\Rock.dll
