@@ -1,0 +1,15 @@
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\bin\Debug\net6.0\const.exe
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\bin\Debug\net6.0\const.deps.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\bin\Debug\net6.0\const.runtimeconfig.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\bin\Debug\net6.0\const.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\bin\Debug\net6.0\const.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\const.csproj.AssemblyReference.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\const.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\const.AssemblyInfoInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\const.AssemblyInfo.cs
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\const.csproj.CoreCompileInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\const.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\refint\const.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\const.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\const.genruntimeconfig.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220517_문법\const\const\obj\Debug\net6.0\ref\const.dll
