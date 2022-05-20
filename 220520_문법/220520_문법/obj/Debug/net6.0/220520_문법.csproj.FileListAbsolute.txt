@@ -1,0 +1,15 @@
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\bin\Debug\net6.0\220520_문법.exe
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\bin\Debug\net6.0\220520_문법.deps.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\bin\Debug\net6.0\220520_문법.runtimeconfig.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\bin\Debug\net6.0\220520_문법.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\bin\Debug\net6.0\220520_문법.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\220520_문법.csproj.AssemblyReference.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\220520_문법.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\220520_문법.AssemblyInfoInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\220520_문법.AssemblyInfo.cs
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\220520_문법.csproj.CoreCompileInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\220520_문법.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\refint\220520_문법.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\220520_문법.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\220520_문법.genruntimeconfig.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220520_문법\220520_문법\obj\Debug\net6.0\ref\220520_문법.dll
