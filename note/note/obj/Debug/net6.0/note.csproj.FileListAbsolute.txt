@@ -1,0 +1,15 @@
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\note.csproj.AssemblyReference.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\note.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\note.AssemblyInfoInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\note.AssemblyInfo.cs
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\note.csproj.CoreCompileInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\bin\Debug\net6.0\note.exe
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\bin\Debug\net6.0\note.deps.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\bin\Debug\net6.0\note.runtimeconfig.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\bin\Debug\net6.0\note.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\bin\Debug\net6.0\note.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\note.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\refint\note.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\note.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\note.genruntimeconfig.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\note\note\obj\Debug\net6.0\ref\note.dll
