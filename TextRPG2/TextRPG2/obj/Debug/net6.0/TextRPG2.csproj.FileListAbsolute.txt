@@ -1,0 +1,15 @@
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\bin\Debug\net6.0\TextRPG2.exe
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\bin\Debug\net6.0\TextRPG2.deps.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\bin\Debug\net6.0\TextRPG2.runtimeconfig.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\bin\Debug\net6.0\TextRPG2.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\bin\Debug\net6.0\TextRPG2.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\TextRPG2.csproj.AssemblyReference.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\TextRPG2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\TextRPG2.AssemblyInfoInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\TextRPG2.AssemblyInfo.cs
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\TextRPG2.csproj.CoreCompileInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\TextRPG2.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\refint\TextRPG2.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\TextRPG2.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\TextRPG2.genruntimeconfig.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\TextRPG2\TextRPG2\obj\Debug\net6.0\ref\TextRPG2.dll
