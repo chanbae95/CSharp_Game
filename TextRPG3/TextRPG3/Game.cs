@@ -18,6 +18,8 @@ namespace TextRPG3
     {
         public GameNow GameNow = GameNow.None;
         Random rand = new Random();
+        Creture Player = null;
+        Creture Monster = null;
 
         public Game()
         {
@@ -38,6 +40,7 @@ namespace TextRPG3
                     break;
                 case GameNow.Town:
                     Console.Clear();
+                    PlayerStatue();
                     GameTownRand();
                     GameTownMove();
                     break;
@@ -67,8 +70,23 @@ namespace TextRPG3
         {
             Console.Write("                                   입력 : ");
             string input = Console.ReadLine();
-            //크리쳐 생성자로 플레이어 생성(경우에따라 생성해야겟지? input값에 따라)
-            GameNow = GameNow.Town;
+            switch (input)
+            {
+                case "1":
+                    Player = new Knight();
+                    GameNow = GameNow.Town;
+                    break;
+                case "2":
+                    Player = new Archer();
+                    GameNow = GameNow.Town;
+                    break;
+                case "3":
+                    Player = new Mage();
+                    GameNow = GameNow.Town;
+                    break;
+                default:
+                    break;
+            }
         }
 
 
@@ -102,9 +120,25 @@ namespace TextRPG3
         //필드
         private void GameFieldRand()
         {
-            //크리처로 랜덤 몬스터 생성(몬스터이름도 변수로 넣어주자)
             Console.WriteLine("*******************************************************************************");
-            Console.WriteLine("                                @@@를 만났습니다.                              ");
+            int monsterRand = rand.Next(0,3);
+            switch (monsterRand)
+            {
+                case 0:
+                    Monster = new Slime();
+                    Console.WriteLine("                                " + Monster.Jop + " 를 만났습니다.");
+                    break;
+                case 1:
+                    Monster = new Orc();
+                    Console.WriteLine("                                " + Monster.Jop + " 를 만났습니다.");
+                    break;
+                case 2:
+                    Monster = new Skeleon();
+                    Console.WriteLine("                                " + Monster.Jop + " 를 만났습니다.");
+                    break;
+            }
+            
+           
             Console.WriteLine("                                                                               ");
             Console.WriteLine("                                   [1] 싸운다                                  ");
             Console.WriteLine("                                   [2] 도망간다(실패시 싸움)                   ");
@@ -119,13 +153,56 @@ namespace TextRPG3
             switch (input)
             {
                 case "1":
-                    //GameFieldFight()만들어서 싸우는 로직 사용
+                    GameFieldFight();
                     break;
                 case "2":
-                    //일정확률로 마을로 이동 실패시 싸우기
-                    GameNow = GameNow.Town;
+                    int runRand = rand.Next(1, 101);
+                    if(runRand < 31)
+                    {
+                        Console.WriteLine("도망쳤습니다!");
+                        Console.ReadLine();
+                        GameNow = GameNow.Town;
+                    }
+                    else
+                    {
+                        Console.WriteLine("도망에 실패 했습니다. 전투 시작! ");
+                        GameFieldFight();
+                    }
+                    break;
+                default:
                     break;
             }
+        }
+
+        private void PlayerStatue()
+        {
+            Console.WriteLine("*******************************************************************************");
+            Console.WriteLine("                    HP : " + Player.Hp + " MP : " + Player.Mp + " Att : " + Player.Att + " 직업 : " + Player.Jop + " Exp : " + Player.Exp);
+        }
+
+        private void GameFieldFight()
+        {
+            while (true)
+            {
+                Player.Fight(Monster.Att);
+                if (Monster.Hp < 1)
+                {
+                    Console.WriteLine("몬스터를 해치웠습니다!");
+                    Player.Exp += Monster.Exp;
+                    Console.ReadLine();
+                    break;
+                }
+
+                Monster.Fight(Player.Att);
+                if (Player.Hp < 1)
+                {
+                    Console.WriteLine("패배하였습니다!");
+                    Player.Hp = 100;
+                    Console.ReadLine();
+                    break;
+                }
+            }
+            GameNow = GameNow.Town;
         }
     }
 }
