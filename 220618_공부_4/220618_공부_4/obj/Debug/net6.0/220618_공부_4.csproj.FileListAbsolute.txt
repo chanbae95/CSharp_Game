@@ -1,0 +1,15 @@
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\bin\Debug\net6.0\220618_공부_4.exe
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\bin\Debug\net6.0\220618_공부_4.deps.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\bin\Debug\net6.0\220618_공부_4.runtimeconfig.json
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\bin\Debug\net6.0\220618_공부_4.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\bin\Debug\net6.0\220618_공부_4.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\220618_공부_4.csproj.AssemblyReference.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\220618_공부_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\220618_공부_4.AssemblyInfoInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\220618_공부_4.AssemblyInfo.cs
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\220618_공부_4.csproj.CoreCompileInputs.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\220618_공부_4.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\refint\220618_공부_4.dll
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\220618_공부_4.pdb
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\220618_공부_4.genruntimeconfig.cache
+C:\Users\dlcks\Desktop\CSharp_Game\CSharp\220618_공부_4\220618_공부_4\obj\Debug\net6.0\ref\220618_공부_4.dll
