@@ -6,47 +6,58 @@ using System.Threading.Tasks;
 
 namespace Algorithm
 {
-    class MyList<T>
+    class Room<T>
     {
-        const int DEFAULT_SIZE = 1;
-        T[] _data = new T[DEFAULT_SIZE];
+        public T Data;
+        public Room<T> Next;
+        public Room<T> Prev;
 
-        public int Count = 0;   //실제로 사용중인 데이터 개수
-        public int Capacity { get { return _data.Length; } } // 사용중 + 예약된 데이터 개수
+    }
 
-        public void Add(T item)
+    class RoomList<T>
+    {
+        public Room<T> Head = null;
+        public Room<T> Tail = null;
+        public int Count = 0;
+
+        public Room<T> AddLast(T data)
         {
-            //1. 공간 확인
-            if (Count >= Capacity)
+            Room<T> newRoom = new Room<T>();
+            newRoom.Data = data;
+
+            if (Head == null)
+                Head = newRoom;
+
+            //기존의 마지막 방과 새로 추가되는 방을 연결해 준다
+            if(Tail != null)
             {
-                //공간을 늘려서 확보 필요
-                T[] newArray = new T[Count * 2];
-                for (int i = 0; i < Count; i++)
-                {
-                    newArray[i] = _data[i];
-                }
-                _data = newArray;
+                Tail.Next = newRoom;
+                newRoom.Prev = Tail;
             }
-            //2. 공간에다가 데이터를 넣어준다
-            _data[Count] = item;
+            //새로 추가되는 방을 마지막 방으로 인정한다.
+            Tail = newRoom;
             Count++;
-
+            return newRoom;
         }
 
-        public T this[int index]
+        public void Remove(Room<T> room)
         {
-            get { return _data[index]; }
-            set { _data[index] = value; }
-        }
+            //첫번째 방 삭제일때
+            if (Head == room)
+                Head = Head.Next;
 
-        public void RemoveAt(int index)
-        {
-            for (int i = index; i < Count - 1; i++)
-            {
-                _data[i] = _data[i + 1];
-            }
-            _data[Count - 1] = default(T); //초기값으로 밀어버림
+            // 마지막 방 삭제일때
+            if (Tail == room)
+                Tail = Tail.Prev;
+
+            if (room.Prev != null)
+                room.Prev.Next = room.Next;
+
+            if (room.Next != null)
+                room.Next.Prev = room.Prev;
+
             Count--;
+
         }
 
     }
@@ -54,21 +65,18 @@ namespace Algorithm
     class Board
     {
         public int[] _data = new int[25]; // 배열
-        public MyList<int> _data2 = new MyList<int>(); // 동적 배열
-        public LinkedList<int> _data3 = new LinkedList<int>(); // 연결 리스트
+        public RoomList<int> _data3 = new RoomList<int>(); // 연결 리스트
 
 
         public void Initialize()
         {
-            _data2.Add(101);
-            _data2.Add(102);
-            _data2.Add(103);
-            _data2.Add(104);
-            _data2.Add(105);
+            _data3.AddLast(101);
+            _data3.AddLast(102);
+            Room<int> node =  _data3.AddLast(103);
+            _data3.AddLast(104);
+            _data3.AddLast(105);
 
-            int temp = _data2[2];
-
-            _data2.RemoveAt(2);
+            _data3.Remove(node);
         }
     }
 }
