@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\사용자\\.nuget\\packages\\": {}
+    "C:\\Users\\dlcks\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\사용자\\Source\\Repos\\chanbae95\\CSharp_Game\\Part2\\Algorithm\\Algorithm.csproj",
+      "projectUniqueName": "C:\\Users\\dlcks\\Desktop\\CSharp_Game\\CSharp\\Part2\\Algorithm\\Algorithm.csproj",
       "projectName": "Algorithm",
-      "projectPath": "C:\\Users\\사용자\\Source\\Repos\\chanbae95\\CSharp_Game\\Part2\\Algorithm\\Algorithm.csproj",
-      "packagesPath": "C:\\Users\\사용자\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\사용자\\Source\\Repos\\chanbae95\\CSharp_Game\\Part2\\Algorithm\\obj\\",
+      "projectPath": "C:\\Users\\dlcks\\Desktop\\CSharp_Game\\CSharp\\Part2\\Algorithm\\Algorithm.csproj",
+      "packagesPath": "C:\\Users\\dlcks\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dlcks\\Desktop\\CSharp_Game\\CSharp\\Part2\\Algorithm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\사용자\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dlcks\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

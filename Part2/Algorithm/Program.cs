@@ -7,7 +7,9 @@ namespace Algorithm
         static void Main(string[] args)
         {
             Board board = new Board();
-            board.Initialize(25);
+            Player player = new Player();
+            board.Initialize(25, player);
+            player.Initialize(1, 1, board);
 
             Console.CursorVisible = false;
             //커서 끄기
@@ -26,11 +28,13 @@ namespace Algorithm
                 //시스템이 켜진 후 얼마나 시간이 지났는지 저장(밀리세컨드 단위)
                 if (currentTick - lastTick < WAIT_TICK)
                     continue;
+                int deltaTick = currentTick - lastTick;
                 lastTick = currentTick;
                 #endregion
                 // 입력
 
                 // 로직
+                player.Update(deltaTick);
 
                 // 렌더링
                 board.Rendor();
