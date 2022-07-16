@@ -8,7 +8,7 @@ namespace Algorithm
 {
     class Pos
     {
-         public Pos(int y, int x) { Y = y; X = x; }
+        public Pos(int y, int x) { Y = y; X = x; }
         public int Y;
         public int X;
     }
@@ -44,6 +44,7 @@ namespace Algorithm
 
         }
 
+        //너비우선탐색
         void BFS()
         {
             int[] deltaY = new int[] { -1, 0, 1, 0 };
