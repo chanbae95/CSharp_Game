@@ -63,12 +63,22 @@ namespace Exercise3
             return height;
         }
 
+        static int FacTo(int num)
+        {
+            if(num == 1)
+                return 1;
+            else
+                return num * FacTo(num - 1);
+        }
+
         static void Main(string[] args)
         {
             TreeNode<string> root = MakeTree();
             //PrintTree(root);
             int height = GetHigh(root);
             Console.WriteLine("root의 높이는 " + height + " 이다");
+
+            //Console.WriteLine(FacTo(5));
         }
     }
 }
