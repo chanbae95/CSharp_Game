@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Exercise3
+namespace Algorithm
 {
     class PriorityQueue<T> where T : IComparable<T>
     {
@@ -13,7 +17,7 @@ namespace Exercise3
 
             int now = _heap.Count - 1;
             // 도장깨기를 시작
-            while(now > 0)
+            while (now > 0)
             {
                 // 도장깨기 시도
                 int next = (now - 1) / 2; //부모
@@ -79,36 +83,5 @@ namespace Exercise3
             return _heap.Count;
         }
 
-    }
-
-    class Knight : IComparable<Knight>
-    {
-        public int Id { get; set; }
-
-        public int CompareTo(Knight other)
-        {
-            if (Id == other.Id)
-                return 0;
-            return Id > other.Id ? 1 : -1;
-        }
-    }
-
-    class Program
-    {
-
-        static void Main(string[] args)
-        {
-            PriorityQueue<Knight> q = new PriorityQueue<Knight>();
-            q.Push(new Knight() { Id = 20 });
-            q.Push(new Knight() { Id = 30 });
-            q.Push(new Knight() { Id = 40 });
-            q.Push(new Knight() { Id = 10 });
-            q.Push(new Knight() { Id = 05 });
-
-            while (q.Count() > 0)
-            {
-                Console.WriteLine(q.Pop().Id);
-            }
-        }
     }
 }
